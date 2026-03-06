@@ -4,7 +4,7 @@ export const featureWork = [
     description:
       "Designed a radiation sensing system using a RAW CMOS camera sensor interfaced to Raspberry Pi via CSI. Built a custom image processing pipeline in Python with OpenCV for demosaicing, denoising, adaptive thresholding, and pixel clustering. Implemented near real-time dose computation on embedded Linux hardware.",
     roles: ["Image Processing", "Embedded Linux", "Python", "OpenCV"],
-    image: "/images/feature-work/radiation.jpg",
+    image: "./images/feature-work/radiation.jpg",
     gradient: "linear-gradient(135deg, #3949ab 0%, #6a1b9a 100%)",
     icon: "📡",
     category: "Image Processing",
@@ -22,7 +22,7 @@ export const featureWork = [
     description:
       "Designed and implemented an 8-core synthesizable GPGPU capable of FP16 and integer arithmetic. Integrated deeply pipelined FP units along with an SFU using Newton–Raphson and Goldschmidt methods. Synthesized using FreePDK45 and OpenROAD, optimized to clock at 500 MHz at 45 nm node.",
     roles: ["Verilog", "VLSI", "Digital Design", "OpenROAD"],
-    image: "/images/feature-work/gpgpu.jpg",
+    image: "./images/feature-work/gpgpu.jpg",
     gradient: "linear-gradient(135deg, #4a3fbf 0%, #5c2d91 100%)",
     icon: "🔲",
     category: "Verilog / Digital Design",
@@ -39,7 +39,7 @@ export const featureWork = [
     description:
       "Designed multithreaded firmware across both ESP32 cores using FreeRTOS task scheduling, mutexes, and semaphores. Integrated A2DP Bluetooth audio streaming with external codec over I2S/I2C. Optimized power consumption using ESP32 ULP coprocessor and dynamic task management.",
     roles: ["Embedded Systems", "FreeRTOS", "ESP32", "C"],
-    image: "/images/feature-work/speaker.jpg",
+    image: "./images/feature-work/speaker.jpg",
     gradient: "linear-gradient(135deg, #1565c0 0%, #00838f 100%)",
     icon: "🔊",
     category: "Embedded Systems",
@@ -56,7 +56,7 @@ export const featureWork = [
     description:
       "Modeled full 6-DOF quadcopter dynamics using Newton–Euler formalism. Designed nested PID control architecture for roll, pitch, yaw stabilization and outer-loop position tracking. Built a piece-wise quadratic spline trajectory generator for smooth 3D paths with feedforward + feedback integration.",
     roles: ["Control Systems", "Robotics", "MATLAB", "PID"],
-    image: "/images/feature-work/quadcopter.jpg",
+    image: "./images/feature-work/quadcopter.jpg",
     gradient: "linear-gradient(135deg, #1b7a3d 0%, #00695c 100%)",
     icon: "🚁",
     category: "Control Systems & Robotics",
