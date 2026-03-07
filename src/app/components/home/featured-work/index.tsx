@@ -70,6 +70,7 @@ const FeaturedWork = () => {
                           width={490}
                           height={300}
                           className="w-full h-full group-hover:scale-105 transition-all duration-300 ease-in-out"
+                          priority
                         />
 
                         {/* Description overlay on hover */}

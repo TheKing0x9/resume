@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { X } from "lucide-react";
+import Image from "next/image";
 
 export interface ProjectDetail {
   title?: string;
@@ -96,10 +97,19 @@ const ProjectDetailModal = ({
         {/* Header — image or gradient+icon */}
         {hasImage ? (
           <div className="relative w-full flex-shrink-0 flex items-center justify-center py-10 sm:py-14 overflow-hidden">
-            <img
+            {/*<img
               src={project.image}
               alt={title}
               className="absolute inset-0 w-full h-full object-cover"
+            />*/}
+
+            <Image
+              src={project.image}
+              alt={title}
+              width={623}
+              height={350}
+              className="absolute inset-0 w-full h-full object-cover"
+              loading="eager"
             />
 
             {/* Invisible spacer to match gradient header height */}

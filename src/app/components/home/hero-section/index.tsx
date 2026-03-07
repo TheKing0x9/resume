@@ -37,6 +37,7 @@ const HeroSection = () => {
               width={1080}
               height={267}
               className="w-full h-full object-cover"
+              priority
             />
           </div>
           <div className="border-x border-primary/10">
@@ -48,6 +49,7 @@ const HeroSection = () => {
                   width={145}
                   height={145}
                   className="border-4 border-background rounded-full"
+                  priority
                 />
                 <span className="absolute bottom-2.5 right-5 w-4 h-4 bg-green-500 border-2 border-background rounded-full" />
               </div>
@@ -63,6 +65,7 @@ const HeroSection = () => {
                     width={20}
                     height={20}
                     className="dark:invert"
+                    priority
                   />
                   <p className="text-primary">New Delhi, India</p>
                 </div>
@@ -96,6 +99,7 @@ const HeroSection = () => {
                         alt="spark-icon"
                         width={14}
                         height={14}
+                        priority
                       />
                       <span className="text-sm sm:text-base font-semibold text-primary-foreground">
                         View Resume
