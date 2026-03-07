@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio — Product Validation Engineer",
+  title: "Portfolio — Aayush Kashyap",
   description:
     "Electronics & VLSI engineer specializing in embedded systems, digital design, robotics, and EDA product validation.",
 };

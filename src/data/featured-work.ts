@@ -35,7 +35,7 @@ export const featureWork = [
     ],
   },
   {
-    title: "Bluetooth Speaker — Freelance",
+    title: "Custom Bluetooth Speaker with Dual-Core FreeRTOS firmware",
     description:
       "Designed multithreaded firmware across both ESP32 cores using FreeRTOS task scheduling, mutexes, and semaphores. Integrated A2DP Bluetooth audio streaming with external codec over I2S/I2C. Optimized power consumption using ESP32 ULP coprocessor and dynamic task management.",
     roles: ["Embedded Systems", "FreeRTOS", "ESP32", "C"],

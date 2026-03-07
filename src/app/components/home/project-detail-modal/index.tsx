@@ -104,7 +104,7 @@ const ProjectDetailModal = ({
             />*/}
 
             <Image
-              src={project.image}
+              src={project.image as string}
               alt={title}
               width={623}
               height={350}
